@@ -1,0 +1,17 @@
+numpy>=1.18.0
+torch>=1.7.0
+transformers>=4.0.0
+scikit-learn>=0.24.0
+openai>=0.27.0
+anthropic>=0.47.0
+mistralai>=1.4.0
+backoff>=1.10.0
+sentence_transformers>=3.4.0
+spacy>=3.8.4
+nltk>=3.9.1
+
+# You may also need to run the following command to install spaCy models:
+# python -m spacy download en_core_web_sm
+
+# You may also need to run the following command to install VADER:
+# python -c "import nltk; nltk.download('vader_lexicon')"
